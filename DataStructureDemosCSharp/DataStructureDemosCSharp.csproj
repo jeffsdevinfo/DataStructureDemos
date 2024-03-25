@@ -9,7 +9,6 @@
 
   <ItemGroup>
     <Folder Include="LinkedList\" />
-    <Folder Include="Graph\" />
   </ItemGroup>
 
 </Project>

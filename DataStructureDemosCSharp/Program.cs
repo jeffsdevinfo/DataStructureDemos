@@ -13,6 +13,9 @@
 
             runner = new Queue.QueueGenericRunner();
             runner.Run();
+
+            runner = new Equatable.IEquatableRunner();
+            runner.Run();
         }
     }
 }
