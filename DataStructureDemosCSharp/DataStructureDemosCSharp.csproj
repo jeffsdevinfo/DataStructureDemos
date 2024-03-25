@@ -10,7 +10,6 @@
   <ItemGroup>
     <Folder Include="LinkedList\" />
     <Folder Include="Graph\" />
-    <Folder Include="Queue\" />
   </ItemGroup>
 
 </Project>

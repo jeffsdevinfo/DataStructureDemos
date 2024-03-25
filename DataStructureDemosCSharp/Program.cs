@@ -10,6 +10,9 @@
 
             runner = new Stack.StackGenericRunner();
             runner.Run();
+
+            runner = new Queue.QueueGenericRunner();
+            runner.Run();
         }
     }
 }
