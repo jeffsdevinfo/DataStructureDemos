@@ -8,7 +8,8 @@
             runner = new Heap.MinHeapIntRunner();
             runner.Run();
 
-
+            runner = new Stack.StackGenericRunner();
+            runner.Run();
         }
     }
 }

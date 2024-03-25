@@ -9,8 +9,9 @@ namespace DataStructureDemosCSharp.Heap
     internal class MinHeapIntRunner : BaseRunner
     {
         public override void Run()
-        {
+        {            
             base.Run();
+            Console.WriteLine("\n\nRunning MinHeapIntRunner\n");
             MinHeapInt minHeapInt = new MinHeapInt(20);
             minHeapInt.Add(20);
             minHeapInt.Add(5);
