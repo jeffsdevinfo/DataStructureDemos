@@ -16,6 +16,9 @@
 
             runner = new Equatable.IEquatableRunner();
             runner.Run();
+
+            runner = new Graph.GraphGenericRunner();
+            runner.Run();
         }
     }
 }

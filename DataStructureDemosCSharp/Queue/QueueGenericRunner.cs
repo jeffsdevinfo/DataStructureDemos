@@ -5,7 +5,7 @@
         public override void Run()
         {
             base.Run();
-            Console.WriteLine("\n\nRunning QueueGenericRunner\n");
+            Console.WriteLine("\n\n***Running QueueGenericRunner***\n");
 
             QueueGeneric<int> queueGeneric = new QueueGeneric<int>();
             queueGeneric.Enqueue(1);

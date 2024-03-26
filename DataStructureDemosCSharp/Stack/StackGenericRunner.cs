@@ -5,7 +5,7 @@
         public override void Run()
         {
             base.Run();
-            Console.WriteLine("\n\nRunning StackGenericRunner\n");
+            Console.WriteLine("\n\n***Running StackGenericRunner***\n");
             StackGeneric<int> stackGeneric = new StackGeneric<int>();
             stackGeneric.Push(50);
             stackGeneric.Push(2);
